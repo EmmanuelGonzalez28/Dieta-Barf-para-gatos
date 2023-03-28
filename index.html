@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    
+    
+    <title>Dieta Barf | gatos esterilizados</title>
+</head>
+<body>
+    <div id="container_loader" class="container__loader">
+        <div class="loader" id="loader"></div>
+    </div>
+
+    <nav class="menu">
+        <input type="checkbox" id="check" class="menu__checked">
+        <label for="check" class="menu__button">
+            <i class="menu__icon menu__icon--hidden fa-solid fa-xmark"></i>
+            <i class="menu__icon menu__icon--show fa-solid fa-bars"></i>
+        </label>
+
+        <div class="menu__links">
+            <a href="#" class="menu__link">Home</a>
+            <a href="#" class="menu__link">About</a>
+            <a href="#" class="menu__link">Menus</a>
+            <a href="#" class="menu__link">Contacts</a>   
+        </div>
+    </nav>
+
+    <header class="header">
+        <footer class="footer-social-media">
+             <div class="footer-social-media__icons">
+                <a href="#" class="footer-social-media__icon fab fa-facebook">
+                    <div class="footer-social-media__layer"><h3>Facebook</h3></div>
+                    <div class="footer-social-media__modal">
+                        <div class="footer-social-media__img-box"><img src="img/modal_face.webp" alt="" loading="lazy"></div>
+                    </div>
+                </a>
+                <a href="#" class="footer-social-media__icon fab fa-instagram">
+                    <div class="footer-social-media__layer"><h3>Instagram</h3></div>
+                    <div class="footer-social-media__modal">
+                        <div class="footer-social-media__img-box"><img src="img/modal_instagram.webp" alt="" loading="lazy"></div>
+                    </div>
+                </a>
+                <a href="#" class="footer-social-media__icon fa-brands fa-youtube">
+                    <div class="footer-social-media__layer"><h3>YouTube</h3></div>
+                    <div class="footer-social-media__modal">
+                        <div class="footer-social-media__img-box"><img src="img/modal_youtube.webp" alt="" loading="lazy"></div>
+                    </div>
+                </a>
+             </div>
+        </footer>
+        <nav class="nav-header">
+            <div class="nav-header__logo-box">
+                <picture>
+                    <source srcset="img/logo-light.webp" type="image/webp" loading="lazy">
+                    <img src="img/logo-light.png" alt="logo" class="nav-header__logo" loading="lazy">
+                </picture>
+            </div>
+            <div class="nav-header__links">
+                <a href="#" class="nav-header__link">Home</a>
+                <a href="#" class="nav-header__link">About</a>
+                <a href="#" class="nav-header__link">Menus</a>
+                <a href="#" class="nav-header__link">Contacts</a>
+            </div>
+            <!-- <div class="nav-header__icons">
+                <img src="" class="nav-header__icon fa-solid fa-magnifying-glass">
+                <img src="" class="nav-header__icon fa-solid fa-user">
+            </div> -->
+
+            <div class="nav-header__user">
+                <div class="nav-header__user-icons">
+                    <i class="nav-header__user-icon fa-solid fa-message"></i>
+                    <span class="nav-header__user-notification">5</span>
+                </div>
+                <div class="nav-header__user-icons">
+                    <i class="nav-header__user-icon fa-solid fa-bell"></i>
+                    <span class="nav-header__user-notification">8</span>
+                </div>
+                <div class="nav-header__user-perfil">
+                    <div class="nav-header__user-photo"></div>
+                    <span class="nav-header__user-name">Emmanuel</span>
+                    <ul class="nav-header__user-menu">
+                        <li class="nav-header__user-option">
+                            <a href="#" class="nav-header__user-link">
+                                <i class="fa-solid fa-user"></i>
+                                <span>My perfil</span>
+                            </a>
+                        </li>
+                        <li class="nav-header__user-option nav-header__user-option--active">
+                            <a href="#" class="nav-header__user-link">
+                                <i class="fa-solid fa-gear"></i>
+                                <span>Settings</span>
+                            </a>
+                        </li>
+                        <li class="nav-header__user-option">
+                            <a href="#" class="nav-header__user-link">
+                                <i class="fa-solid fa-question"></i>
+                                <span>Help</span>
+                            </a>
+                        </li>
+                        <li class="nav-header__user-option">
+                            <a href="#" class="nav-header__user-link">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Close session</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main text--neon">Barf Diet for cats</span>
+                <span class="heading-primary--sub">Feed your kitten raw, biologically appropriate foods</span>
+            </h1>
+            <a href="#" class="btn btn--magenta btn--animated u-margin-top-medium">Calculate your menu</a>
+        </div>
+        <div class="header__slider">
+            <div class="header__slider-img header__slider-img--1"></div>
+            <div class="header__slider-img header__slider-img--2"></div>
+         </div>
+    </header>
+
+    <main>
+        <section class="section-about container">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">What is the Barf Diet?</h2>
+            </div>
+
+            <div class="flex-about">
+                <div class="container-texts">
+                    <h3 class="heading-tertiary u-margin-bottom-small">Barf Diet</h3>
+                    <p class="parragraph">The B.A.R.F Diet is the practice of feeding dogs, cats, and other domestic animals a diet primarily composed of raw foods.</p>
+
+                    <h3 class="heading-tertiary u-margin-bottom-small">Why is raw feeding suitable for cats?</h3>
+                    <p class="parragraph">This feeding method is suitable mainly because cats are carnivorous by nature. A raw food diet gives them just what they need: plenty of fresh meat. Unlike food cooked at home, the BARF diet is offered raw, without cooking or grilling.</p>
+                </div>
+
+                <div class="composition">
+                    <div class="composition__photo-box composition__photo-box--1" loading="lazy"></div>
+                    <div class="composition__photo-box composition__photo-box--2" loading="lazy"></div>
+                    <div class="composition__photo-box composition__photo-box--3" loading="lazy"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-features container">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">Features</h2>
+            </div>
+            <div class="flex-feature-box">
+                <div class="feature-box">
+                    <i class="fa-solid fa-fish feature-box__icon"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">100% natural and delicious</h3>
+                    <p class="parragraph">Balanced diet with homemade food for human consumption. The cat will have a correct proportion of the food that is needed for a balanced diet</p>     
+                </div>
+                <div class="feature-box">
+                    <i class="fa-solid fa-scale-balanced feature-box__icon"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Diet balanced in protein</h3>
+                    <p class="parragraph">The cat will administer a diet that provides a high proportion of protein and fiber, and low in carbohydrates and fats</p>     
+                </div>
+                <div class="feature-box">
+                    <i class="fa-solid fa-heart feature-box__icon"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Improve the health of your michi</h3>
+                    <p class="parragraph">Considerably reduces weight problems and laziness. His coat will be shiny and healthy. The bad smell of feces will no longer be a problem.</p>     
+                </div>
+            </div>
+        </section>
+
+        <section class="section-cards container" id="section-cards">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">Resume</h2>
+            </div>
+
+            <div class="flex-card">
+                <div class="card">
+                    <!-- CARD #1 -->
+                    <div class="card__side card__side--front">
+                        <div class="card__picture card__picture--1" loading="lazy"></div>
+                        <h4 class="card__heading">
+                            <span class="card__heading-span card__heading-span--1">Justification and problem</span>
+                        </h4>
+                        <div class="card__details">
+                            <p class="card__parragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci totam incidunt optio consectetur dolor a aliquam dignissimos beatae sunt magni earum natus perspiciatis voluptatem, facilis iste molestiae veritatis fuga unde!
+                            Ea vitae iste veritatis excepturi earum. Consequuntur delectus pariatur laudantium alias sequi vero, beatae officiis optio mollitia ipsam! Fugit, aspernatur impedit. Ex perferendis, consectetur ipsam totam porro itaque aliquid ut.</p>
+                        </div>
+                    </div>
+
+                    <div class="card__side card__side--back card__side--back-1">
+                        <div class="card__btn">
+                            <div class="card__box">
+                                <p class="card__box-parragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci totam incidunt optio consectetur dolor a aliquam dignissimos</p>
+                            </div>
+                            <a href="#modal-1" class="btn btn--magenta">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="card">
+                    <!-- CARD #2 -->
+                    <div class="card__side card__side--front">
+                        <div class="card__picture card__picture--2" loading="lazy"></div>
+                        <h4 class="card__heading">
+                            <span class="card__heading-span card__heading-span-A card__heading-span--2">Contextual Framework</span>
+                        </h4>
+                        <div class="card__details">
+                            <p class="card__parragraph">Feugiat ac vivamus maecenas risus habitant purus a arcu nascetur aliquam suscipit ullamcorper natoque, morbi nisl congue aptent magna libero orci inceptos sagittis leo litora proin. Blandit platea euismod tempor ridiculus hac rutrum cubilia parturient vitae, id cum orci facilisis ultricies congue pretium consequat commodo, senectus odio vulputate torquent iaculis per semper suspendisse.</p>
+                        </div>
+                    </div>
+
+                    <div class="card__side card__side--back card__side--back-2">
+                        <div class="card__btn">
+                            <div class="card__box">
+                                <p class="card__box-parragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci totam incidunt optio consectetur dolor a aliquam dignissimos</p>
+                            </div>
+                            <a href="#modal-2" class="btn btn--magenta">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <!-- CARD #3 -->
+                    <div class="card__side card__side--front">
+                        <div class="card__picture card__picture--3" loading="lazy"></div>
+                        <h4 class="card__heading">
+                            <span class="card__heading-span card__heading-span--3">Environmental aspects</span>
+                        </h4>
+                        <div class="card__details">
+                            <p class="card__parragraph">Sem montes auctor suspendisse mauris tortor nullam viverra varius, aliquet natoque arcu ligula potenti ac fringilla, quam gravida inceptos erat curabitur porttitor interdum.Semper fames cras penatibus viverra tincidunt non neque fermentum imperdiet, mauris a odio malesuada facilisis urna fringilla massa proin, ad litora convallis sociis praesent blandit ultricies hendrerit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card__side card__side--back card__side--back-3">
+                        <div class="card__btn">
+                            <div class="card__box">
+                                <p class="card__box-parragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci totam incidunt optio consectetur dolor a aliquam dignissimos</p>
+                            </div>
+                            <a href="#modal-3" class="btn btn--magenta">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="u-center-text u-margin-top-huge u-center-text">
+                <a href="#" class="btn-glow-on-hover btn-glow-on-hover--dark-blue">Click here!</a>
+            </div>
+        </section>
+
+        <section class="section-gallery">
+            <div class="u-center-text  u-margin-bottom-big">
+                <h2 class="heading-secondary">Gallerry</h2>
+            </div>
+            <div class="gallery-grid">
+                <figure class="figure-box">
+                    <img src="/img/gallery-1.webp" alt="" class="figure-box__img" loading="lazy">
+                    <div class="figure-box__capa figure-box__capa-blue"></div>
+                    <div class="figure-box__text u-center-text">
+                        <h4 class="figure-box__title">Lorem ipsum</h4>
+                        <p class="">delectus nostrum minus amet</p>
+                    </div>
+                </figure>
+                <figure class="figure-box">
+                    <img src="/img/gallery-2.webp" alt="" class="figure-box__img" loading="lazy">
+                    <div class="figure-box__capa figure-box__capa-blue"></div>
+                    <div class="figure-box__text u-center-text">
+                        <h4 class="figure-box__title">Lorem ipsum</h4>
+                        <p class="">delectus nostrum minus amet</p>
+                    </div>
+                </figure>
+                <figure class="figure-box">
+                    <img src="/img/gallery-3.webp" alt="" class="figure-box__img" loading="lazy">
+                    <div class="figure-box__capa figure-box__capa-blue"></div>
+                    <div class="figure-box__text u-center-text">
+                        <h4 class="figure-box__title">Lorem ipsum</h4>
+                        <p class="">delectus nostrum minus amet</p>
+                    </div>
+                </figure>
+                <figure class="figure-box">
+                    <img src="/img/gallery-4.webp" alt="" class="figure-box__img" loading="lazy">
+                    <div class="figure-box__capa figure-box__capa-blue"></div>
+                    <div class="figure-box__text u-center-text">
+                        <h4 class="figure-box__title">Lorem ipsum</h4>
+                        <p class="">delectus nostrum minus amet</p>
+                    </div>
+                </figure>
+                <figure class="figure-box">
+                    <img src="/img/gallery-5.webp" alt="" class="figure-box__img" loading="lazy">
+                    <div class="figure-box__capa figure-box__capa-blue"></div>
+                    <div class="figure-box__text u-center-text">
+                        <h4 class="figure-box__title">Lorem ipsum</h4>
+                        <p class="">delectus nostrum minus amet</p>
+                    </div>
+                </figure>
+                <figure class="figure-box">
+                    <img src="/img/gallery-8.webp" alt="" class="figure-box__img" loading="lazy">
+                    <div class="figure-box__capa figure-box__capa-blue"></div>
+                    <div class="figure-box__text u-center-text">
+                        <h4 class="figure-box__title">Lorem ipsum</h4>
+                        <p class="">delectus nostrum minus amet</p>
+                    </div>
+                </figure>
+                <figure class="figure-box">
+                    <img src="/img/gallery-9.webp" alt="" class="figure-box__img" loading="lazy">
+                    <div class="figure-box__capa figure-box__capa-blue"></div>
+                    <div class="figure-box__text u-center-text">
+                        <h4 class="figure-box__title">Lorem ipsum</h4>
+                        <p class="">delectus nostrum minus amet</p>
+                    </div>
+                </figure>
+                <figure class="figure-box">
+                    <img src="/img/gallery-11.webp" alt="" class="figure-box__img" loading="lazy">
+                    <div class="figure-box__capa figure-box__capa-blue"></div>
+                    <div class="figure-box__text u-center-text">
+                        <h4 class="figure-box__title">Lorem ipsum</h4>
+                        <p class="">delectus nostrum minus amet</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="u-center-text u-margin-top-big">
+                <a href="#" class="btn-glow-on-hover btn-glow-on-hover--dark-blue">Show all</a>
+            </div>
+        </section>
+
+        <div id="modal-1" class="modal">
+            <div class="modal__content">
+                <div class="modal__left">
+                    <img src="img/gato-gordo-1.jpg" alt="fat cat" class="" loading="lazy">
+                    <img src="img/gato-gordo-2.jpg" alt="fat cat" class="" loading="lazy">
+                </div>
+                <div class="modal__right">
+                    <a href="#section-cards" class="modal__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Lorem ipsum dolor sit</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Itlo perspiciatis &ndash; blanditiis cupiditate, recusandae dolorum odit fugiat</h3>
+                    <p class="">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At risus viverra adipiscing at in. Elementum tempus egestas sed sed risus pretium quam vulputate. In hac habitasse platea dictumst quisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Urna nunc id cursus metus aliquam eleifend mi. Id semper risus in hendrerit gravida rutrum quisque. Dictum sit amet justo donec enim diam vulputate ut. Urna neque viverra justo nec ultrices dui sapien eget mi. Pulvinar elementum integer enim neque volutpat. Ultrices vitae auctor eu augue ut. Ac tincidunt vitae semper quis lectus. Cum sociis natoque penatibus et magnis dis parturient.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui expedita rerum, minus in veritatis, corrupti pariatur quas voluptatibus, non laborum magnam repellendus similique sapiente ab consequuntur ullam impedit nesciunt nulla. Lorem ipsuchitecto, temporibus minus magni porro dolores labore dolorem quas, ipsum praesentium, deserunt quidem sapiente odio commodi beatae. Nemo consequatur nulla ad debitis ipsum ut!
+                    </p>
+                    <a href="#" class="btn btn--magenta-2">Lorem ipsum</a>
+                </div>
+            </div>
+        </div>
+        <div id="modal-2" class="modal">
+            <div class="modal__content">
+                <div class="modal__left">
+                    <img src="img/ojos-de-gatos.png" alt="" class="" loading="lazy">
+                    <img src="img/ojos-de-gatos-2.jpg" alt="" class="" loading="lazy">
+                </div>
+                <div class="modal__right">
+                    <a href="#section-cards" class="modal__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Lorem ipsum dolor sit</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Itlo perspiciatis &ndash; blanditiis cupiditate, recusandae dolorum odit fugiat</h3>
+                    <p class="">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At risus viverra adipiscing at in. Elementum tempus egestas sed sed risus pretium quam vulputate. In hac habitasse platea dictumst quisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Urna nunc id cursus metus aliquam eleifend mi. Id semper risus in hendrerit gravida rutrum quisque. Dictum sit amet justo donec enim diam vulputate ut. Urna neque viverra justo nec ultrices dui sapien eget mi. Pulvinar elementum integer enim neque volutpat. Ultrices vitae auctor eu augue ut. Ac tincidunt vitae semper quis lectus. Cum sociis natoque penatibus et magnis dis parturient.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui expedita rerum, minus in veritatis, corrupti pariatur quas voluptatibus, non laborum magnam repellendus similique sapiente ab consequuntur ullam impedit nesciunt nulla. Lorem ipsuchitecto, temporibus minus magni porro dolores labore dolorem quas, ipsum praesentium, deserunt quidem sapiente odio commodi beatae. Nemo consequatur nulla ad debitis ipsum ut!
+                    </p>
+                    <a href="#" class="btn btn--magenta-2">Lorem ipsum</a>
+                </div>
+            </div>
+        </div>
+        <div id="modal-3" class="modal">
+            <div class="modal__content">
+                <div class="modal__left">
+                    <img src="img/verduras.jpg" alt="" class="" loading="lazy">
+                    <img src="img/aspecto-ambiental.jpeg" alt="" class="" loading="lazy">
+                </div>
+                <div class="modal__right">
+                    <a href="#section-cards" class="modal__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Lorem ipsum dolor sit</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Itlo perspiciatis &ndash; blanditiis cupiditate, recusandae dolorum odit fugiat</h3>
+                    <p class="">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At risus viverra adipiscing at in. Elementum tempus egestas sed sed risus pretium quam vulputate. In hac habitasse platea dictumst quisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Urna nunc id cursus metus aliquam eleifend mi. Id semper risus in hendrerit gravida rutrum quisque. Dictum sit amet justo donec enim diam vulputate ut. Urna neque viverra justo nec ultrices dui sapien eget mi. Pulvinar elementum integer enim neque volutpat. Ultrices vitae auctor eu augue ut. Ac tincidunt vitae semper quis lectus. Cum sociis natoque penatibus et magnis dis parturient.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui expedita rerum, minus in veritatis, corrupti pariatur quas voluptatibus, non laborum magnam repellendus similique sapiente ab consequuntur ullam impedit nesciunt nulla. Lorem ipsuchitecto, temporibus minus magni porro dolores labore dolorem quas, ipsum praesentium, deserunt quidem sapiente odio commodi beatae. Nemo consequatur nulla ad debitis ipsum ut!
+                    </p>
+                    <a href="#" class="btn btn--magenta-2">Lorem ipsum</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="section-book">
+            <div class="book-flex">
+                <div class="book">
+                    <div class="book__form">
+                        <div class="u-margin-bottom-medium">
+                            <h2 class="heading-secondary heading-secondary--dark-blue-magenta">Contact us</h2>
+                        </div>
+
+                        <form action="#" class="form">
+                            <div class="form__group">
+                                <input id="name" type="text" class="form__input" placeholder="Full name" required>
+                                <label for="name" class="form__label">Full name</label>
+                            </div>
+                            <div class="form__group">
+                                <input id="email" type="email" class="form__input" placeholder="Email Address" required>
+                                <label for="email" class="form__label">Email Address</label>
+                            </div>
+                            <div class="form__group">
+                                <div class="form__radio-group">
+                                    <input id="small" type="radio" class="form__radio-input" name="size">
+                                    <label for="small" class="form__radio-label">
+                                        <span class="form__radio--button"></span>
+                                        Small cat
+                                    </label>
+                                </div>
+                                <div class="form__radio-group">
+                                    <input id="large" type="radio" class="form__radio-input" name="size">
+                                    <label for="large" class="form__radio-label">
+                                        <span class="form__radio--button"></span>
+                                        Large cat
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form__group">
+                                <button class="btn btn--dark-blue-magenta">Next Step &rarr;</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-details">
+            <div class="title-box u-margin-bottom-big">
+                <h2 class="heading-secondary heading-secondary--magenta-3 title-box__title">BARF GATITOS</h2>
+                <div class="title-box__stars">
+                    <i class="fa-solid fa-star title-box__icon title-box__icon"></i>
+                    <i class="fa-solid fa-star title-box__icon title-box__icon"></i>
+                    <i class="fa-solid fa-star title-box__icon title-box__icon"></i>
+                    <i class="fa-solid fa-star title-box__icon title-box__icon"></i>
+                    <i class="fa-solid fa-star-half-stroke title-box__icon"></i>
+                </div>
+                <div class="title-box__rating">
+                    <p class="title-box__average">8.1</p>
+                    <p class="title-box__count">126 votes</p>
+                </div>
+            </div>
+
+            <div class="details-flex">
+                <div class="description">
+                    <p class="description__parragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis
+                        ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                        architecto voluptate.
+                    </p>
+                    <p class="description__parragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cupiditate dolores nulla obcaecati 
+                        consequatur, porro quod quos natus qui quia laboriosam! Iusto ut cupiditate alias ipsam commodi eligendi. 
+                        At, iure!
+                    </p>
+                    <ul class="description__list">
+                        <li class="description__list-item">More energy</li>
+                        <li class="description__list-item">Shinier and healthier hair</li>
+                        <li class="description__list-item">Smaller and less odorous stools</li>
+                        <li class="description__list-item">Less gases</li>
+                        <li class="description__list-item">Improves mood</li>
+                        <li class="description__list-item">Improves health</li>
+                        <li class="description__list-item">Save money</li>
+                        <li class="description__list-item">100% natural and delicious</li>
+                    </ul>
+                    <div class="description__recommend">
+                        <p class="description__count">Lucas and 3 other friends recommend this diet</p>
+                        <div class="description__friends">
+                            <div class="description__recommends-photo-box">
+                                <img src="img/perfil-2.webp" alt="Perfil 2" class="description__recommends-photo" loading="lazy">
+                            </div>
+                            <div class="description__recommends-photo-box">
+                                <img src="img/perfil-3.webp" alt="Perfil 3" class="description__recommends-photo" loading="lazy">
+                            </div>
+                            <div class="description__recommends-photo-box">
+                                <img src="img/perfil-4.webp" alt="Perfil 4" class="description__recommends-photo" loading="lazy">
+                            </div>
+                            <div class="description__recommends-photo-box">
+                                <img src="img/perfil-5.webp" alt="Perfil 5" class="description__recommends-photo" loading="lazy">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="review">
+                    <figure class="review__figure">
+                        <blockquote class="review__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure recusandae reprehenderitias temporibus iure quod.</blockquote>
+                        <figcaption class="review__user">
+                            <div class="review__photo-box">
+                                <img src="img/user-6.jpg" alt="user 6" class="review__photo" loading="lazy">
+                            </div>
+                            <div class="review__user-box">
+                                <p class="review__user-name">Pablo Figueroa</p>
+                                <p class="review__user-date">Oct 23rd, 2022</p>
+                            </div>
+                            <div class="review__rating">8.2</div>
+                        </figcaption>
+                    </figure>
+                    <figure class="review__figure">
+                        <blockquote class="review__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, animi nemo quaerat velit consequuntur consectetur dicta optio quo dolore cupiditate aspernatur minus beatae ea ipsum sapiente consequatur, est minima placeat.
+                        Cum, velit enim nobis aspernatur inventore quidem!.</blockquote>
+                        <figcaption class="review__user">
+                            <div class="review__photo-box">
+                                <img src="img/user-7.jpg" alt="user 6" class="review__photo" loading="lazy">
+                            </div>
+                            <div class="review__user-box">
+                                <p class="review__user-name">Bruno Ibrahim</p>
+                                <p class="review__user-date">Dic 14rd, 2022</p>
+                            </div>
+                            <div class="review__rating">8.5</div>
+                        </figcaption>
+                    </figure>
+
+                    <button class="btn-inline">Show all <span>&rarr;</span></button>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    
+    <script src="https://kit.fontawesome.com/69d9da1290.js" crossorigin="anonymous"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/loader.js"></script>
+    
+   
+</body>
+</html>
